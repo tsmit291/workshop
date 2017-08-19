@@ -43,18 +43,22 @@ Describes how HTML elements are displayed on a page and controls page layout.
 
 **Linking your CSS file** - The CSS file and HTML file need to speak to each other in order to render style.
 
+```sh
 <head>
  <link rel="stylesheet" href="styles.css">
 </head>
+```
 
 **Typical format in a CSS Style Sheet** - Elements can have style applied without an id or class. Id's are used once in an application and are denoted by a '#' in front of the id name. Classes can be used by multiple elements and are denoted by a '.' in front of the class name.
 
+```sh
 body {
   background-color: pink;
 }
-#about-me {
+.about-me {
   width: 600px;
 }
 .nav-bar {
   color: blue;
 }
+```
