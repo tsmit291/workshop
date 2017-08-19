@@ -40,6 +40,7 @@ Here are some HTML resources:
  - [Semantic HTML Tutorial] (https://codepen.io/mi-lee/post/an-overview-of-html5-semantics)
  - [MDN HTML resources] (https://developer.mozilla.org/en-US/docs/Web/HTML)
  - [MDN HTML beginners tutorial] (https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
+ - [HTML Cheat Sheet] (http://www.hostingreviewbox.com/wp-content/uploads/2016/02/html5-cheat-sheet-1.png)
 
 ### CSS
 
@@ -74,6 +75,7 @@ Here are some CSS resources:
  - [MDN CSS] (https://developer.mozilla.org/en-US/docs/Web/CSS)
  - [MDN CSS beginner's basic tutorial] (https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
  - [CSS Layouts] (http://learnlayout.com/inline-block.html)
+ - [CSS Cheat Sheet] (https://www.smashingmagazine.com/wp-content/uploads/images/css3-cheat-sheet/css3-cheat-sheet.pdf)
 
  Here are some other resources:
   - [Font Awesome] (http://fontawesome.io/icons/)
