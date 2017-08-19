@@ -12,12 +12,15 @@ Today you will learn:
 # HTML
 
 > Hypertext Markup Language
+
 The set of markup symbols or codes inserted in a file intended for display on a World Wide Web browser page. The markup tells the Web browser how to display a Web page's words and images for the user.
 
 **Tags** - HTML element names surrounded by angle brackets
 (usually in pairs)
 
+```sh
 >example: <p> </p> OR <body> </body>
+```
 
 **Elements** - Everything from the start tag to the end tag
 example: <p>My Very First Webpage</p>
@@ -25,7 +28,9 @@ example: <p>My Very First Webpage</p>
 **Attributes** -  Additional information about HTML elements
 (always specified in the start tag)
 
+```sh
 >example: <p class="about-me">"All About Me"</p>
+```
 
 Today we are going to use Semantic HTML to assist us in laying out our page. Semantic HTML is the use of HTML markup to reinforce the meaning, of the information in webpages and web applications rather than merely to define its presentation or look. For example, we will use <section></section> tags to refer to specific sections of our page.
 
