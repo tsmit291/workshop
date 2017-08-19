@@ -19,17 +19,19 @@ The set of markup symbols or codes inserted in a file intended for display on a 
 (usually in pairs)
 
 ```sh
->example: <p> </p> OR <body> </body>
+example: <p> </p> OR <body> </body>
 ```
 
 **Elements** - Everything from the start tag to the end tag
-example: <p>My Very First Webpage</p>
 
+```sh
+example: <p>My Very First Webpage</p>
+```
 **Attributes** -  Additional information about HTML elements
 (always specified in the start tag)
 
 ```sh
->example: <p class="about-me">"All About Me"</p>
+example: <p class="about-me">"All About Me"</p>
 ```
 
 Today we are going to use Semantic HTML to assist us in laying out our page. Semantic HTML is the use of HTML markup to reinforce the meaning, of the information in webpages and web applications rather than merely to define its presentation or look. For example, we will use <section></section> tags to refer to specific sections of our page.
@@ -67,3 +69,13 @@ body {
   color: blue;
 }
 ```
+
+Here are some CSS resources:
+ - [MDN CSS] (https://developer.mozilla.org/en-US/docs/Web/CSS)
+ - [MDN CSS beginner's basic tutorial] (https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+ - [CSS Layouts] (http://learnlayout.com/inline-block.html)
+
+ Here are some other resources:
+  - [Font Awesome] (http://fontawesome.io/icons/)
+  - [Google Fonts] (https://fonts.google.com/)
+  - [Coolors Themes] (https://coolors.co/browser/latest/1)
