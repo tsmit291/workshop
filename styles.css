@@ -1,0 +1,78 @@
+html {
+  background-color: #F3D9DC;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header {
+  margin: 0 auto;
+  background-color: #744253;
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+  color: white;
+}
+
+.navbar {
+  background-color: #C78283;
+  color: white;
+}
+
+ul {
+  padding-left: 0;
+  width: 310px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+section {
+  display: inline-block;
+  margin: 35px;
+  background-color: white;
+}
+
+.about-me {
+  float: left;
+  width: 400px;
+  height: 200px;
+  padding: 4px;
+  margin-right: 25px;
+  border-radius: 2px;
+}
+
+.inspiration {
+  float: left;
+  width: 870px;
+  height: 200px;
+  padding: 0 4px;
+  border-radius: 2px;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: pink;
+}
+
+img {
+  width: 212px;
+  height: 212px;
+  border-radius: 50%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+}
