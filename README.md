@@ -1,6 +1,6 @@
-Hello there! If you're reading this, chances are you're taking my beginner's workshop on HTML, CSS and prepping to create your very first webpage!
+Hello there! If you're reading this, chances are you're taking my beginner's workshop series on HTML, CSS and prepping to create your very first webpage!
 
-# Welcome!
+# Welcome to Part 1!
 
 Today you will learn:
  - Use a text editor to author an HTML page
@@ -34,10 +34,7 @@ example: <p>My Very First Webpage</p>
 example: <p class="about-me">"All About Me"</p>
 ```
 
-Today we are going to use Semantic HTML to assist us in laying out our page. Semantic HTML is the use of HTML markup to reinforce the meaning, of the information in webpages and web applications rather than merely to define its presentation or look. For example, we will use <section></section> tags to refer to specific sections of our page.
-
 Here are some HTML resources:
- - [Semantic HTML Tutorial] (https://codepen.io/mi-lee/post/an-overview-of-html5-semantics)
  - [MDN HTML resources] (https://developer.mozilla.org/en-US/docs/Web/HTML)
  - [MDN HTML beginners tutorial] (https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
  - [HTML Cheat Sheet] (http://www.hostingreviewbox.com/wp-content/uploads/2016/02/html5-cheat-sheet-1.png)
@@ -81,3 +78,33 @@ Here are some CSS resources:
   - [Font Awesome] (http://fontawesome.io/icons/)
   - [Google Fonts] (https://fonts.google.com/)
   - [Coolors Themes] (https://coolors.co/browser/latest/1)
+
+
+# Welcome to Part 2!
+
+Today you will learn (and expand upon) the following:
+ - Semantic HTML layout
+ - CSS: Box-shadowing, Border-radius
+ - Add multiple images to your page
+ - Customize your page with colors, fonts and icons.
+ - Deploy your site using Heroku
+
+If you are here for the first time, take the time to go through the above content in Part 1. As always, please reach out if you have any questions or concerns!
+
+**Semantic HTML** - HTML markup used to reinforce the meaning behind information on webpages rather than just by appearance. It gives the developer insight to the content on the page and how it should be organized.
+
+Here are some HTML resources:
+ - [Semantic HTML Tutorial] (https://codepen.io/mi-lee/post/an-overview-of-html5-semantics)
+ - [Semantic HTML Resource] (https://internetingishard.com/html-and-css/semantic-html/)
+Header/Footer
+ - Can define the entire document, or a specific section.
+Section
+ - Defines a section of a document. Usually is organized based on a common theme. One section can have multiple paragraphs and usually is preceded with a header.
+Article
+ - Defines an independent set of content such as a news article or blog post. Ask yourself: Can this content be read independently of everything on my page?
+Aside
+ - Defines content aside from the content it is placed in. Think a sidebar.
+Figure/Figcaption
+ - A caption for an image/diagram.
+
+ Now let's give it a try. Copy the code in the semantic.html file and let's create our own semantic HTML page!
