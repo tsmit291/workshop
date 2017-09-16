@@ -148,5 +148,11 @@ table, th, td {
 }
 
 **Deploying your site to Heroku**
+
+What is Heroku?
+ - Heroku is a cloud platform as a service (PAAS) that is used as a web application deployment model. Developers can easily deploy their applications so that customers and the public can easily access.
+
+Checklist of things you will need:
 1. Go to (https://signup.heroku.com/) and sign up for a FREE account on Heroku
-2. You can follow along with the tutorial here: (https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up)
+2. Make sure you can access your computer's command line (if you are using a mac, terminal)
+2. Once you have these, you can follow along with the tutorial here: (https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up)
