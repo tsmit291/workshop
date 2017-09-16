@@ -83,9 +83,10 @@ Here are some CSS resources:
 # Welcome to Part 2!
 
 Today you will learn (and expand upon) the following:
- - Semantic HTML layout
+ - Semantic HTML layout to build a resume page
+ - Link multiple pages to your site
  - CSS: Box-shadowing, Border-radius
- - Add multiple images to your page
+ - Add multiple images to your pages
  - Customize your page with colors, fonts and icons.
  - Deploy your site using Heroku
 
@@ -107,4 +108,45 @@ Aside
 Figure/Figcaption
  - A caption for an image/diagram.
 
- Now let's give it a try. Copy the code in the semantic.html file and let's create our own semantic HTML page!
+ Now let's give it a try. Copy or open the code in the semantic.html file and let's create our own semantic HTML resume page!
+
+ In this page we will work on the following:
+ - Use Semantic HTML to separate content on a resume page
+ - Link our resume page to our homepage
+ - Use external links to social media
+ - Insert a picture
+ - Insert a table
+ - Use CSS to style our resume page
+
+ **Tables in HTML**
+
+ If you've ever used Microsoft Excel, you may be familiar with tables. Tables are made up of rows and columns. Rows and columns are typically denoted by headers and contain cells. Cells contain data. Tables in HTML are quite similar, but take a specific format. Today you will learn how to build your own table and how to style it appropriately.
+
+ - A table is formulated in HTML with opening and closing <table> </table> Tags.
+ - Table Rows are denoted by opening and closing <tr> </tr> Tags.
+ - Table Headers, or column headers are denoted by opening and closing <th> </th> Tags. It is important that table header tags go inside of a table row.
+ - Table Data, or cell content is denoted by opening and closing <td> </td> tags. <td> stands for Table Data.
+
+ The main thing to consider when making a table is to apply appropriate padding to your <tr></tr> and <td></td> tags.
+
+ th, td {
+    padding: 1.5px;
+}
+
+ Another thing to consider when making a table is whether or not you want borders (or the grid) to divide you table.
+
+ To use borders or a grid on your table, you can structure your CSS like so:
+
+ table, th, td {
+    border: 1px solid black;
+}
+
+To only have one border around the entire table, you can structure your CSS like so:
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+**Deploying your site to Heroku**
+1. Go to (https://signup.heroku.com/) and sign up for a FREE account on Heroku
+2. You can follow along with the tutorial here: (https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up)
